@@ -1,0 +1,25 @@
+package ex02;
+
+import java.util.Scanner;
+
+public class Ifex01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new scanner(System.in)
+				
+				System.out.println("나이 입력 : ");
+				
+				int age = sc.nextInt();
+				
+				if (age >= 20)
+					System.out.println("성년입니다.");
+				
+				if (age < 20)
+					System.out.println("미성년입니다.");
+		
+		
+	}
+
+}

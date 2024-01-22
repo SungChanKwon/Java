@@ -1,0 +1,18 @@
+package ex03;
+
+public class Exam01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int exam = 4000;
+		System.out.println(exam / hour);
+		
+		
+		
+		//출력
+		// 1시간 6분 40초
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package ex01;
+
+public class Hello {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 자바 프로그래밍 언어
+		System.out.println("Hello World!!!");
+		System.out.print("what the fuck");
+	}
+
+}

@@ -1,0 +1,32 @@
+package ex03;
+
+import java.util.Scanner;
+
+public class Ifexam01_01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*
+		 * 두 정수 입력 받아서 5, 10
+		 * 큰 값, 작은값으로 출력
+		 * 큰 값 : 10
+		 * 작읍 값 : 5
+		 */
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("정수 입력 : ");
+		int number = input.nextInt();
+		
+		if (number == 10) {
+			System.out.println("큰 값");
+		if (number == 5) {
+			System.out.println("작은 값");
+		}
+		}
+
+		
+		
+}
+}

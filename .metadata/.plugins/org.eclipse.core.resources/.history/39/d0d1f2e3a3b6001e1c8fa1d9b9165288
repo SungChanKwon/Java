@@ -1,0 +1,19 @@
+package ex03;
+
+import java.util.Scanner;
+
+public class Ifexam01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		int com = sc.nextInt();
+		
+		if (com % 3 == 0) {
+			System.out.println("좋아요");
+		}else if (com % 5 ==0) {
+			System.out.println("싫어요");
+		}
+}
+}

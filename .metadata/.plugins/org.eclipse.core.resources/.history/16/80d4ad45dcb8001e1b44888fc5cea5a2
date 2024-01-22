@@ -1,0 +1,32 @@
+package ex01;
+
+import java.util.Scanner;
+
+public class For02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		/*
+		 * 1~100 사이에
+		 * 
+		 * 홀수합과 짝수합을 구하시오
+		 * */
+		
+		int sum = 100 % 2;
+		System.out.println("짝수 입력하시오");
+		Scanner s = new Scanner(System.in);
+		
+		
+		for(int a  = 1; a <= 100; a++) {
+			int num = s.nextInt();
+			sum = num
+			
+		}
+		
+		
+		
+	}
+
+}

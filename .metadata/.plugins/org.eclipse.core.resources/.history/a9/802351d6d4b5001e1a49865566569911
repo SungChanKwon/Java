@@ -1,0 +1,21 @@
+package ex03;
+
+public class Exam01 {
+
+	public static void main(String[] args) {
+		
+
+		int exam = 4000;
+		
+		
+		
+		System.out.println(exam / 60);
+		
+		
+		
+		//출력
+		// 1시간 6분 40초
+		
+	}
+
+}
