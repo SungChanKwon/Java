@@ -37,6 +37,7 @@ public class 홀수합짝수합구하기 {
 		if(i % 3 == 0 && i % 5 == 0) {
 		su += i;
 		System.out.println("3의 배수이면서 5의 배수인 자연수의 합: " + su); 
+		
 		}
 		}
 		
