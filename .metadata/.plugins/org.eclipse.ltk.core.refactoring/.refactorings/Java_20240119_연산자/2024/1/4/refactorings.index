@@ -1,3 +1,9 @@
 1705888904610	Rename type '버스요금'
 1705888923522	Rename type '버스요금2'
 1705888963616	Rename type 'BusCharge'
+1706058834355	Rename type 'exam01'
+1706058847452	Rename type 'exam02'
+1706059090433	Infer generic type arguments
+1706059106657	Delete element
+1706059473775	Rename resource 'Exam01.java'
+1706059487947	Rename resource 'Ex02.java'

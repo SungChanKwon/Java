@@ -1,21 +1,13 @@
 package ex02;
 
-import java.util.Scanner;
-
-public class exam01 {
+public class Exam01 {
 
 	public static void main(String[] args) {
+		int a = 4;
+		float b = 3;
 		
-		Scanner sc = new Scanner(System.in);
-
-		System.out.print("문자열 입력 : ");
-		String msg = sc.nextLine();
-		
-		System.out.println("출력 결과 : " + msg);
-		
-		
-		
-		
+		int c = (int)(++a + -b);  // 5 + -3.0; => 5.0 + -3.0; ++>  2.0 ++> (int)(2.0) ++ > 2
+		System.out.println(c);
 	}
 
 }

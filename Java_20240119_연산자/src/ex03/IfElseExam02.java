@@ -2,7 +2,7 @@ package ex03;
 
 import java.util.Scanner;
 
-public class IfExam01 {
+public class IfElseExam02 {
 
 	public static void main(String[] args) {
 		
@@ -13,14 +13,16 @@ public class IfExam01 {
 		int age = sc.nextInt();
 		
 		if(age >= 20) {
+			
 			System.out.println("성년입니다.");
-		}
+			
+		}else {
 		
-		if(age < 20) {
 			System.out.println("미성년입니다.");
 		}
-
+		
 		System.out.println("프로그램 종료");
+
 	}
 
 }
