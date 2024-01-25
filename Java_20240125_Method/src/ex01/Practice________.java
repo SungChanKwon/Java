@@ -4,24 +4,25 @@ public class Practice________ {
 
 	public static void main(String[] args) {
 		
-		int[] numArr = change(5);
-		
-		for(int i=0; i<numArr.length; i++)
-			System.out.print(numArr[i] + " ");
+	max();
+	System.out.println("최대값 출력");
+	System.out.println("프로그램 종료");
+	
 	}
+	
+	static void max() {
 		
+		int num1 = 10;
+		int num2 = 20;
 		
+		int max = num1 > num2 ? num1: num2;
 		
-		static int[] change(int num) {
-			int[] arrNum = new int[num];
-			
-			
-			for(int i=0; i<arrNum.length; i++)
-				arrNum[i] = (int)(Math.random()*10)+1;
-			
-			return arrNum;
-			
+		System.out.println("최대값 : " + max);
+		
+	}
+	
+	
 		}
-	}
+	
 
 
