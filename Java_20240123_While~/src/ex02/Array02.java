@@ -10,7 +10,7 @@ public class Array02 {
 		double avg = 0;
 		int total = 0;
 		
-		int[] arrNum = new int[10];
+		int[] arrNum = new int[5];
 		
 		//1~100이 값을 랜덤하게 추출해서 저장
 		for(int i=0; i<arrNum.length; i++) {
@@ -44,6 +44,25 @@ public class Array02 {
 			}
 		}
 		System.out.println("최대값 : " + max);
+		
+		System.out.println("\n-------------------------------------");
+		
+		// 정렬 !!
+		
+		for(int i=0; i<arrNum.length-1; i++) {
+			for(int j=i+1; j<arrNum.length; j++) {
+				int tmp;
+				if(arrNum[i] > arrNum[j]) {	
+					tmp = arrNum[i];
+					arrNum[i] = arrNum[j];
+					arrNum[j] = tmp;
+					
+				}
+			}
+		}
+		//배열 5개값 출력
+		for(int i=0; i<arrNum.length; i++)
+			System.out.print(arrNum[i] + " ");
 		
 		
 	}
