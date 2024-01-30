@@ -10,7 +10,7 @@ public class Example01 {
 		Cat c1 = new Cat(); 
 		//--> new Cat()은 Cat()란 생성자 호출을 통해서 객체를 생성한다.
 		
-		c1.breed = "페르시안고양이";
+		c1.breed = "페르시안고양이";  //이런 방식으로 접근하면 안되고 생성자나 setter로 접근해야됨
 		c1.color = "흰색";
 		c1.setAge(100);
 		c1.eat();

@@ -23,6 +23,7 @@ public class Book {
 		publisher = "출판사없음";
 	}
 	
+	
 	Book(String t, String a,  int p){
 		title = t;
 		author = a;

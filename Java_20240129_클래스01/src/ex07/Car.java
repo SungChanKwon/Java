@@ -22,8 +22,8 @@ public class Car {
 		make = m;
 	}
 
-	void setModel(String m) {
-		model = m;
+	void setModel(String mo) {
+		model = mo;
 	}
 	
 	//생성자보다는 효율성 떨어진다..

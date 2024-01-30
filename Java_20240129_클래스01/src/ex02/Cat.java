@@ -12,7 +12,7 @@ public class Cat {
 	
 	//추가..setter, getter
 	//setter는 변수값을 변경할 때 사용
-	//getter는 변수값을 읽어올 때 사용
+	//getter는 변수값을 읽어올 때 사용 get 값을 꺼내오는 것이므로 반환자료형이 필요
 	
 	//setter -> set+변수명 조합 -> 카멜표기법
 	void setBreed(String s) {
