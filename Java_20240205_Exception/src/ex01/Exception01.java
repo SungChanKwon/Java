@@ -13,9 +13,9 @@ public class Exception01 {
 		
 		try { //문제의 소지가 있는 것들은 다 넣어주면 됨. 
 			int num1 = sc.nextInt(); //정수입력을 요구 ==> 문자열일때 어떻게?
-			int num2 = sc.nextInt(); //0 아닌 값 요구 ==> 0입력하면 어떻게?
+			int num2 = sc.nextInt(); 
 			
-			div = num1 / num2;
+			div = num1 / num2;		//0 아닌 값 요구 ==> 0입력하면 어떻게?
 			
 			int [] arr = new int[3];
 			for(int i=0; i<10; i++)

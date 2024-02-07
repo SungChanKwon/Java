@@ -23,8 +23,11 @@ class Box2{
 	}
 	@Override
 	public boolean equals(Object obj) {
-		
-			return x == ((Box2)obj).x; 
+			Box2 b = (Box2)obj;
+			return x == b.x;
+					
+//			return x == ((Box2)obj).x; 
+			
 			//객체를 비교하기 위해선 오버라이딩을 해줘야함
 			//형변환을 통해서 비교 ==> Box2 b1 = (Box2) obj 
 		}
