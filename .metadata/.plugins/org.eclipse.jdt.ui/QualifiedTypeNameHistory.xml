@@ -13,4 +13,5 @@
     <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
     <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
     <fullyQualifiedTypeName name="ex02.Apple"/>
+    <fullyQualifiedTypeName name="ex01.B"/>
 </qualifiedTypeNameHistroy>

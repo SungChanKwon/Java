@@ -20,8 +20,8 @@ class Orange {
 class Box<T> {				//사과, 오렌지 담는 상자
 	private T obj;
 	
-	void setObj(T obj) {
-		this.obj = obj;
+	void setObj(T obj) {  //타입이 같은 애들만 넣어줄 수 있음. 또한 그 아이를 상속하는 애들.
+		this.obj = obj;   //
 	}
 	
 	T getObj() {
@@ -35,6 +35,7 @@ public class FruitBoxEx01 {
 		
 		Box<Apple> abox = new Box();
 		Box<Orange> bbox = new Box();
+		Box<Integer> ibox = new Box<Integer>();
 		
 		abox.setObj(new Apple());	//사과 담음
 		bbox.setObj(new Orange());	//오렌지 담음
@@ -44,6 +45,9 @@ public class FruitBoxEx01 {
 		
 		System.out.println(ap);
 		System.out.println(op);
+		
+		ibox.setObj(10);
+		int num = ibox.getObj(); 
 	}
 }
 

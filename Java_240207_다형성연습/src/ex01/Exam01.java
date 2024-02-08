@@ -48,6 +48,12 @@ public class Exam01 {
 	public static void main(String[] args) {
 		
 		//상위 클래스는 하위 클래스 참조가능
+		//하위 클래스는 상위 클래스 참조불가
+		
+		//상위클래스는 하위클래스 자원 접근 불가
+		//하위클래스는 상위클래스 자원 접근 가능
+		//단, 하위클래스가 상위클래스 자원(메소드)을 재정의하면 그 때는 가능
+		
 		//하위클래스는 상위클래스를 상속받기 때문에 상위클래스에 있는 기능(멤버)을 포함하고 있기 때문에 상위클래스가 하위클래스를 참조할 수 있는것이다.
 		A a1 = new A();
 		A a2 = new B();
@@ -76,7 +82,7 @@ public class Exam01 {
 		
 		testFunc(new A());
 		testFunc(new B());
-//		testFunc(new C());
+		testFunc(new C());
 		}
 	}
 

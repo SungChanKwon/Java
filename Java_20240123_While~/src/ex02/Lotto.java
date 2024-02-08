@@ -14,7 +14,7 @@ public class Lotto {
 		for(int j=0; j<5; j++) {
 		
 		for(int i=0; i<lotto.length; i++) {
-			flag = false;													//flag = false를 설정해줘야함 중복값이 생겼을때 flag=true로 설정되어 if(flag)문을 거쳐 다시 랜덤을 돌렷을때 flag=true 값을 false로 바꿔줘야 다시 중복되지않을값을 찾게되므로.
+			flag = false;			//flag = false를 설정해줘야함 중복값이 생겼을때 flag=true로 설정되어 if(flag)문을 거쳐 다시 랜덤을 돌렷을때 flag=true 값을 false로 바꿔줘야 다시 중복되지않을값을 찾게되므로.
 			int num = (int)(Math.random()*45)+1;
 			
 			for(int k=0; k<i; k++) {
