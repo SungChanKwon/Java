@@ -35,7 +35,7 @@ public class FruitBoxEx01 {
 		
 		Box<Apple> abox = new Box();
 		Box<Orange> bbox = new Box();
-		Box<Integer> ibox = new Box<Integer>();
+		Box<Integer> ibox = new Box<Integer>(); //우항에 제네릭 생략가능
 		
 		abox.setObj(new Apple());	//사과 담음
 		bbox.setObj(new Orange());	//오렌지 담음
