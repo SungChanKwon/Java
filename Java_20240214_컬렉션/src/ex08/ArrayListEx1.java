@@ -30,7 +30,8 @@ public class ArrayListEx1 {
 
 		list2.set(3, "AA");
 		print(list1, list2);
-
+		
+		//list1에서 list2와 겹치는 부분만 남기고 나머지는 삭제한다.
 		System.out.println("list1.retainAll(list2): " + list1.retainAll(list2));
 
 		print(list1, list2);

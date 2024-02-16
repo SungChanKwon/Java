@@ -22,9 +22,8 @@ public class ArrayListCollection {
 
 		Iterator<String> it = set.iterator();
 		// 반복문 ==> set 사용할때 사용
-		// set 은 특성상 for 문을 사용할 수 없음
-		// 만약 ArrayList를 쓰다가 set 을 쓰고 싶으면 Iterator 이용
-		// ArrayList or LinkedList만 쓰고 싶다면 for 문 돌리면 됨.
+		//for문으로 끝낼 수 있으면 for문 사용하고 for문으로 끝낼 수 없으면 Iterator 사용
+		
 
 		// 스택 안에 있는 값이 있는지 확인해줌
 		// 스택 안에 있는 값이 없다면 반복문을 벗어남

@@ -16,7 +16,10 @@ public class SetCollection {
 		set.add("Robot");
 		set.add("Toy");
 
-		Iterator<String> it = set.iterator(); // 반복자
+//		for(String s : set)
+//			System.out.println(s);
+			
+		Iterator<String> it = set.iterator(); // set은 순서가 없기 때문에 iterator 사용
 
 		while (it.hasNext()) {
 			System.out.println(it.next() + '\t');
