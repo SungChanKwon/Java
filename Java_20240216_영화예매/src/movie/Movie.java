@@ -59,7 +59,7 @@ public class Movie {
 	@Override
 	public String toString() {
 		return String.format("[%d]: %s(%s)", id, title, genre);
-						//		정수형	실수형
-		//toString 을 이용해  '1627175707,어벤저스,판타지'를 문자형으로 바꿔서 보내줌
+						//		정수형	문자열
+		//toString 을 이용해  '[1627175707]:어벤저스(판타지)' 문자형태로 바꿔서 보내줌
 	}
 }
